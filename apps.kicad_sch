@@ -5119,6 +5119,12 @@
 		(uuid "0aa2f2f1-2481-4192-ae04-6248e0b69d29")
 	)
 	(junction
+		(at 53.34 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c93a258-5958-48a2-a34c-38336d9908bf")
+	)
+	(junction
 		(at 107.95 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5183,12 +5189,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b308c3e-97f4-4c06-9e25-e2b94dd08c59")
-	)
-	(junction
-		(at 52.07 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bc1dff6-1caf-4d76-8f85-4007c20a441b")
 	)
 	(junction
 		(at 165.1 62.23)
@@ -5700,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 49.53) (xy 53.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cbba58-7cfb-4463-aeb5-7f79d265c998")
+	)
+	(wire
+		(pts
 			(xy 93.98 66.04) (xy 93.98 67.31)
 		)
 		(stroke
@@ -5780,7 +5790,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 52.07 49.53)
+			(xy 55.88 49.53) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5807,6 +5817,16 @@
 			(type default)
 		)
 		(uuid "2ac17715-f925-4160-8896-304f8a89df28")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8528b4-f503-4442-949a-5e2185d32f01")
 	)
 	(wire
 		(pts
@@ -6440,7 +6460,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 48.26 49.53)
+			(xy 48.26 49.53) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6760,7 +6780,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 52.07 49.53)
+			(xy 53.34 48.26) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7580,7 +7600,7 @@
 	)
 	(rectangle
 		(start 24.13 40.64)
-		(end 58.42 91.44)
+		(end 59.69 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -9504,6 +9524,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 53.34 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a9ed640-61f4-4e22-bcec-e0c7ce68534d")
+		(property "Reference" "D6"
+			(at 56.515 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Small"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eb2287b-8a1e-4475-b63f-74aaff273915")
+		)
+		(pin "1"
+			(uuid "7c44a653-b066-4cf3-974c-f7f071948115")
+		)
+		(instances
+			(project "apps"
+				(path "/37c0128e-0bf6-47e1-84ea-e330ce83485d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 222.25 132.08 0)
 		(unit 1)
@@ -10938,7 +11026,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 52.07 48.26 0)
+		(at 53.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10946,7 +11034,7 @@
 		(dnp no)
 		(uuid "790e0c89-38d7-4528-b018-d23e2d85a7c6")
 		(property "Reference" "#PWR01"
-			(at 52.07 52.07 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,7 +11043,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 52.07 44.45 0)
+			(at 53.34 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +11051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +11069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 52.07 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,6 +11422,73 @@
 			(project "apps"
 				(path "/37c0128e-0bf6-47e1-84ea-e330ce83485d"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81fcaac1-5e7d-4cf2-ba18-dfce2f626fcd")
+		(property "Reference" "#PWR045"
+			(at 53.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "456a44ab-cd93-4e96-a0bf-0b277c8f20e9")
+		)
+		(instances
+			(project "apps"
+				(path "/37c0128e-0bf6-47e1-84ea-e330ce83485d"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
