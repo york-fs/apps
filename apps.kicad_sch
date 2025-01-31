@@ -9702,7 +9702,7 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS_Small"
+		(property "Value" "UDD32C12L01-ES"
 			(at 49.53 54.61 0)
 			(effects
 				(font
@@ -9711,7 +9711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 53.34 54.61 0)
 			(effects
 				(font
@@ -14348,7 +14348,7 @@
 				)
 			)
 		)
-		(property "Value" "H5VL10B"
+		(property "Value" "UDD32C12L01-ES"
 			(at 52.07 175.26 0)
 			(effects
 				(font
@@ -14357,7 +14357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 55.88 175.26 0)
 			(effects
 				(font
@@ -14958,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Value" "H5VL10B"
+		(property "Value" "UDD32C12L01-ES"
 			(at 57.15 175.26 0)
 			(effects
 				(font
@@ -14967,7 +14967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 60.96 175.26 0)
 			(effects
 				(font
