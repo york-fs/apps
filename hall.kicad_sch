@@ -765,7 +765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "180b5551-18f7-499c-adb3-ec1eab8c0193")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 172.72 95.2562 0)
 			(effects
 				(font
@@ -839,7 +839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39614c22-5eed-4b18-a481-9cc1c080a08f")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 167.64 85.09 90)
 			(effects
 				(font
@@ -911,7 +911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68fb1ee6-1783-42b7-90c5-70fa58af2657")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -982,7 +982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "744e61ef-f67e-4737-bca2-7e20c7a89f28")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -1052,7 +1052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f3c54d4-2975-4dff-bee6-8cced747633a")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 185.42 95.2499 0)
 			(effects
 				(font
@@ -1126,7 +1126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d390e1-dc83-47dc-8d99-7a8fb3cd6972")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 182.88 106.68 0)
 			(effects
 				(font
@@ -1196,7 +1196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93110b5a-478f-4095-8201-46d197a051f4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -1266,7 +1266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa320668-4a56-471f-a831-6fe95cdc6913")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -1337,7 +1337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05da1e4-7b6f-4a5f-bfdc-f9c9fe13bb3f")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 147.32 88.8999 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0b45168-0815-4621-a7bb-5d9552e41017")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -1482,7 +1482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33f1694-4de9-464d-b06b-996a2c063bf1")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 128.27 88.9062 0)
 			(effects
 				(font
