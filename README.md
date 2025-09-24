@@ -16,3 +16,5 @@ This module measures pedal position using two SS49E Hall-effect sensors with ind
   - Throttle data transmission  
   - Ready-to-drive state reporting  
   - Calibration / curve configuration
+
+<img width="1746" height="778" alt="image" src="https://github.com/user-attachments/assets/5c9d4c15-da50-49dc-af65-d7dec6a074a9" />
